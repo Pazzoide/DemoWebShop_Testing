@@ -1,0 +1,51 @@
+Test Case ID:
+	US_0601 - TC_0601
+Test Case Name:
+	Sipariş Geçmişini Bilgisayara İndirme
+Test Case Description:
+	Kullanıcının web sitesinden sipariş geçmişini görüntülemesini ve herhangi bir siparişin faturasını indirmesini test eder.
+Acceptance Criteria:
+	Kullanıcı anasayfada giriş yaparak hesabıma erişebilir.
+	Hesabım sayfasında "My account (mail adresiniz)" veya benzeri bir bağlantıyı görür ve bu bağlantıya tıklayarak hesap bilgilerini görüntüleyebilir.
+	Hesap bilgileri sayfasında "Orders" veya "Siparişler" adlı bir bağlantıyı görür ve bu bağlantıya tıklayarak sipariş geçmişini görüntüleyebilir.
+	Sipariş geçmişi sayfasında, en son siparişi ve diğer geçmiş siparişleri görür.
+	Bir siparişin detaylarına erişmek için ilgili sipariş numarasına tıklayabilir.
+	Sipariş detayları sayfasında, siparişin faturasını indirebilir.
+Pre-Conditions:
+	Test senaryosunun çalıştırılacağı tarayıcı (Chrome, Safari veya Firefox) yüklü ve başlatılmış durumda olmalıdır.
+	Test ortamında internet erişimi sağlanmalıdır.
+	Kullanıcının hesap bilgileri ve sipariş geçmişi verileri uygun şekilde sunulmalıdır.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	"Login" butonuna tıklayın.
+	Geçerli bir kullanıcı adı ve şifre girin.
+	"Login" butonuna tıklayın.
+	Hesabım sayfasına gidin.
+	"Orders" veya "Siparişler" adlı bağlantıya tıklayın.
+	Sipariş geçmişi sayfasında, sipariş numarasını görmek istediğiniz siparişi bulun.
+	Sipariş numarasına tıklayın.
+	Sipariş detayları sayfasında, "Download Invoice" veya "Faturayı İndir" bağlantısına tıklayın.
+Expected Results:
+	Kullanıcı, anasayfada giriş yaparak hesabına erişebilecektir.
+	Kullanıcı, hesabım sayfasında "My account (mail adresiniz)" veya benzeri bir bağlantıyı görecek ve bu bağlantıya tıklayarak hesap bilgilerini görüntüleyebilecektir.
+	Kullanıcı, hesap bilgileri sayfasında "Orders" veya "Siparişler" adlı bir bağlantıyı görecek ve bu bağlantıya tıklayarak sipariş geçmişini görüntüleyebilecektir.
+	Kullanıcı, sipariş geçmişi sayfasında, en son siparişi ve diğer geçmiş siparişleri görecektir.
+	Kullanıcı, bir siparişin detaylarına erişmek için ilgili sipariş numarasına tıklayabilecektir.
+	Kullanıcı, sipariş detayları sayfasında, siparişin faturasını indirebilecektir.
+Actual Results:
+	Kullanıcının hesabıma eriştiğini doğrulayın.
+	Kullanıcının hesap bilgilerini görüntülediğini doğrulayın.
+	Kullanıcının sipariş geçmişini görüntülediğini doğrulayın.
+	Kullanıcının sipariş detaylarını görüntülediğini doğrulayın.
+	Kullanıcının siparişin faturasını indirdiğini doğrulayın.
+Pass/Fail Criteria:
+	Kullanıcı, hesabına erişemezse, test başarısızdır.
+	Kullanıcı, hesap bilgilerini görüntüleyemezse, test başarısızdır.
+	Kullanıcı, sipariş geçmişini görüntüleyemezse, test başarısızdır.
+	Kullanıcı, sipariş detaylarını görüntüleyemezse, test başarısızdır.
+	Kullanıcı, siparişin faturasını indiremezse, test başarısızdır.
+Ek Testler:
+	Fatura, geçerli bir "XML" formatında mı
+	Fatura, siparişin tüm ayrıntılarını içeriyor mu
+	Fatura, doğru tarih ve saatle mi düzenlenmiş

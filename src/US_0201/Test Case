@@ -1,0 +1,26 @@
+Test Case ID:
+	US_0201 - TC_0201
+Test Case Name:
+	Oturumu Kapatma
+Test Case Description:
+	Kullanıcının oturumunu kapatıp kapatamadığını test eder.
+Acceptance Criteria:
+	Kullanıcı hesaptan çıkış yapabilmelidir.
+	Kullanıcı oturumu başarıyla kapattığı zaman giriş yapma sayfasına yönlendirilmelidir.
+Pre-Conditions:
+	Kullanıcı web sitesine giriş yapmış durumda olmalıdır.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	Giriş sayfasını bulun ve kullanıcı bilgilerinizi girin.
+	"Giriş" butonuna tıklayın.
+	Giriş yaptığınızdan emin olun.
+	Hesabınızı kapatmak için "Hesabımı Kapat" bağlantısına tıklayın.
+	"Oturumu Kapat" butonuna tıklayın.
+Expected Results:
+	Kullanıcının oturumu kapatılacağı ve giriş yapma sayfasına yönlendirileceği beklenir.
+Actual Results:
+	Kullanıcının oturumunun kapatıldığını ve giriş yapma sayfasına yönlendirildiğini doğrulayın.
+Pass/Fail Criteria:
+	Kullanıcı oturumu kapatılmazsa, test başarısızdır.
+	Kullanıcı giriş yapma sayfasına yönlendirilmezse, test başarısızdır.

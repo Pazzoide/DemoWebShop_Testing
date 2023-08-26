@@ -1,0 +1,27 @@
+Test Case ID:
+	US_0301 - TC_0301
+Test Case Name:
+	Oturum Açma
+Test Case Description:
+	Kullanıcının web sitesine giriş yapıp yapamadığını test eder.
+Acceptance Criteria:
+	Kullanıcı ana sayfada "Login" butonuna tıklayabilir.
+	Geçerli e-posta ve şifre bilgilerini girdikten sonra "Login" butonuna tıklayarak başarılı bir şekilde giriş yapabilir.
+	Giriş işleminin başarılı olduğunu doğrulayabilir.
+Pre-Conditions:
+	Kullanıcının hesabı başarılı bir şekilde oluşturulmuş ve doğrulanmış olmalıdır.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	"Login" butonuna tıklayın.
+	Aşağıdaki bilgileri girin:
+	E-posta adresi: [geçerli e-posta adresi]
+	Şifre: [geçerli şifre]
+	"Login" butonuna tıklayın.
+Expected Results:
+	Kullanıcının ana sayfaya giriş yapacağı ve giriş yaptığını doğrulayacak bir mesaj göreceği beklenir.
+Actual Results:
+	Kullanıcının ana sayfaya giriş yaptığını ve giriş yaptığını doğrulayacak bir mesaj gördüğünü doğrulayın.
+Pass/Fail Criteria:
+	Kullanıcı ana sayfaya giriş yapamazsa, test başarısızdır.
+	Kullanıcı giriş yaptığını doğrulayacak bir mesaj görmezse, test başarısızdır.

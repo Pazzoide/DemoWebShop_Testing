@@ -1,0 +1,40 @@
+Test Case ID:
+	US_0501 - TC_0501
+Test Case Name:
+	Anket Yanıtlama
+Test Case Description:
+	Kullanıcının web sitesinden anket yanıtlamasını test eder.
+Acceptance Criteria:
+	Kullanıcı anasayfada "Community Pool" adlı anketi görebilir.
+	Anketi yanıtlamak için "excellent," "good," "poor," veya "very bad" seçeneklerinden birini seçebilir.
+	Yanıtı göndermek için bir "Submit" butonu vardır.
+	Yanıtını gönderdikten sonra, anket sonuçlarını görüntüleyebilir.
+	Sonuçlar, anketin hangi seçeneğe ne kadar oy verildiğini gösterir.
+Pre-Conditions:
+	Test senaryosunun çalıştırılacağı tarayıcı (Chrome, Safari veya Firefox) yüklü ve başlatılmış durumda olmalıdır.
+	Test ortamında internet erişimi sağlanmalıdır.
+	Eğer kullanıcı girişi gerekiyorsa, geçerli bir kullanıcı adı ve şifre ile oturum açabilmeliyim.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	"Community Pool" adlı anketi bulun.
+	Anketi yanıtlamak için bir seçenek seçin.
+	"Submit" butonuna tıklayın.
+Expected Results:
+	Kullanıcı anasayfada "Community Pool" adlı anketi görecektir.
+	Kullanıcı anketi yanıtlamak için "excellent," "good," "poor," veya "very bad" seçeneklerinden birini seçebilecektir.
+	Kullanıcı yanıtını göndermek için bir "Submit" butonu olacaktır.
+	Kullanıcı yanıtını gönderdikten sonra, anket sonuçlarını görüntüleyebilecektir.
+	Sonuçlar, anketin hangi seçeneğe ne kadar oy verildiğini gösterecektir.
+Actual Results:
+	Kullanıcı anasayfada "Community Pool" adlı anketi gördüğünü doğrulayın.
+	Kullanıcı anketi yanıtlamak için "excellent," "good," "poor," veya "very bad" seçeneklerinden birini seçtiğini doğrulayın.
+	Kullanıcı yanıtını göndermek için bir "Submit" butonu olduğunu doğrulayın.
+	Kullanıcı yanıtını gönderdikten sonra, anket sonuçlarını görüntülediğini doğrulayın.
+	Sonuçların, anketin hangi seçeneğe ne kadar oy verdiğini gösterdiğini doğrulayın.
+Pass/Fail Criteria:
+	Kullanıcı anasayfada "Community Pool" adlı anketi görmezse, test başarısızdır.
+	Kullanıcı anketi yanıtlamak için "excellent," "good," "poor," veya "very bad" seçeneklerinden birini seçemezse, test başarısızdır.
+	Kullanıcı yanıtını göndermek için bir "Submit" butonu yoksa, test başarısızdır.
+	Kullanıcı yanıtını gönderdikten sonra, anket sonuçlarını görüntüleyemezse, test başarısızdır.
+	Sonuçlar, anketin hangi seçeneğe ne kadar oy verdiğini göstermiyorsa, test başarısızdır.

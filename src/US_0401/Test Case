@@ -1,0 +1,59 @@
+Test Case ID:
+	US_0401 - TC_0401
+Test Case Name:
+	Sipariş Verme
+Test Case Description:
+	Kullanıcının web sitesinden ürün sipariş etme sürecini test eder.
+Acceptance Criteria:
+	Kullanıcı anasayfada ürün listesinden bir ürünü seçebilir.
+	Seçtiği ürün için "Add to Cart" butonuna tıklayarak ürünü başarılı bir şekilde sepete ekleyebilir.
+	Sepetim sayfasına giderek seçtiği ürünün sepetimde görüntülendiğini doğrulayabilir.
+	Kargo bilgileri için "Select Country" ve "Select State" alanlarından uygun seçenekleri seçebilir.
+	Şartları kabul etmek için "Agree" onay kutusunu işaretleyebilir.
+	"Checkout" butonuna tıklayarak ödeme işlemine başlayabilir.
+	Aşağıdaki adımları takip ederek siparişi tamamlayabilir:
+	Fatura Adresini girebilir ve devam edebilir.
+	"Mağazadan Teslim (In-Store Pickup)" seçeneğini seçebilir ve Kargolama Adresinin kaybolduğunu doğrulayabilir, sonra devam edebilir.
+	Ödeme Yöntemini seçebilir ve devam edebilir.
+	Seçtiği Ödeme Yöntemini "Payment Information" kısmında doğrulayabilir ve devam edebilir.
+	Ürün fiyatıyla, ek ödemelerin toplamının, hesaplanan toplamla aynı olduğunu doğrulayabilir.
+	Ödeme bilgilerini girerek siparişi onaylayabilir.
+	"Your order has been successfully processed!" mesajını görüntüleyerek siparişin başarıyla tamamlandığını doğrulayabilir.
+Pre-Conditions:
+	Test senaryosunun çalıştırılacağı tarayıcı (Chrome, Safari veya Firefox) yüklü ve başlatılmış durumda olmalıdır.
+	Test ortamında internet erişimi sağlanmalıdır.
+	Ürünlerin ve fiyatların doğru bir şekilde görüntülendiği doğrulanmalıdır.
+	Kullanıcının hesabı (Kullanıcının e-posta adresi ve Kullanıcının şifresi) başarılı bir şekilde oluşturulmuş ve doğrulanmış olmalıdır.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	Ürün listesinden bir ürünü seçin.
+	Ürün için "Add to Cart" butonuna tıklayın.
+	Sepetim sayfasına gidin.
+	Seçtiğiniz ürünün sepetimde görüntülendiğini doğrulayın.
+	"Select Country" ve "Select State" alanlarından uygun seçenekleri seçin.
+	"Agree" onay kutusunu işaretleyin.
+	"Checkout" butonuna tıklayın.
+	Aşağıdaki adımları takip ederek siparişi tamamlayın:
+		Fatura Adresini girin.
+		"Mağazadan Teslim (In-Store Pickup)" seçeneğini seçin.
+		Ödeme Yöntemini seçin.
+		Seçtiğiniz Ödeme Yöntemini "Payment Information" kısmında doğrulayın.
+		Ürün fiyatıyla, ek ödemelerin toplamının, hesaplanan toplamla aynı olduğunu doğrulayın.
+	Ödeme bilgilerini girerek siparişi onaylayın.
+	"Your order has been successfully processed!" mesajını görüntüleyin.
+Expected Results:
+	Kullanıcının seçtiği ürün sepetine eklenecektir.
+	Kullanıcının seçtiği ürün sepetim sayfasında görüntülenecektir.
+	Kullanıcının sepetinde doğru kargo bilgileri görünecektir.
+	Kullanıcının siparişi başarıyla işlenecektir.
+Actual Results:
+	Kullanıcının seçtiği ürün sepetine eklendiğini doğrulayın.
+	Kullanıcının seçtiği ürün sepetim sayfasında görüntülendiğini doğrulayın.
+	Kullanıcının sepetinde doğru kargo bilgileri görüntülendiğini doğrulayın.
+	Kullanıcının siparişinin başarıyla işlendiğini doğrulayın.
+Pass/Fail Criteria:
+	Kullanıcının seçtiği ürün sepetine eklenmezse, test başarısızdır.
+	Kullanıcının seçtiği ürün sepetim sayfasında görüntülenmezse, test başarısızdır.
+	Kullanıcının sepetinde doğru kargo bilgileri görüntülenmezse, test başarısızdır.
+	Kullanıcının siparişi başarıyla işlenmezse, test başarısızdır.

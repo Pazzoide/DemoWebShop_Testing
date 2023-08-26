@@ -1,0 +1,34 @@
+Test Case ID:
+	US_0101 - TC_0101
+Test Case Name:
+	 Kullanıcı Hesabı Oluşturma
+Test Case Description:
+	Kullanıcının web mağazamıza başarılı bir şekilde kayıt olup olamayacağını test eder.
+Acceptance Criteria:
+	Anasayfada "Register" butonuna tıklayabilmeliyim.
+	Kişisel bilgilerimi girdikten sonra "Register" butonuna tıklayarak başarılı bir şekilde kaydolabilmeliyim.
+	Kayıt işleminin başarılı olduğunu doğrulayabilmeliyim.
+Pre-Conditions:
+	Test için kullanılacak tarayıcı (Chrome, Safari veya Firefox) yüklü ve başlatılmış durumda olmalıdır.
+	Test ortamında internet erişimi sağlanmalıdır.
+	Geçerli şifre en az 8 karakterli olmalı; büyük-küçük harf ve rakam içermelidir.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	"Register" butonuna tıklayın.
+	Aşağıdaki bilgileri girin:
+	E-posta adresi: [geçerli e-posta adresi]
+	Ad: [geçerli ad]
+	Soyadı: [geçerli soyadı]
+	Şifre: [en az 8 karakterli, büyük-küçük harf ve rakam içeren şifre]
+	Şifre (tekrar): [en az 8 karakterli, büyük-küçük harf ve rakam içeren şifre]
+	"Register" butonuna tıklayın.
+Expected Results:
+	"Register" butonuna tıklandıktan sonra, kullanıcının "Hesabınız başarıyla oluşturuldu!" mesajını görmesi beklenir.
+	Kullanıcının ana sayfaya geri dönmesi beklenir.
+Actual Results:
+	"Register" butonuna tıklandıktan sonra, kullanıcının "Hesabınız başarıyla oluşturuldu!" mesajını gördüğü doğrulanır.
+	Kullanıcının ana sayfaya geri döndüğü doğrulanır.
+Pass/Fail Criteria:
+	"Hesabınız başarıyla oluşturuldu!" mesajı görülmüyorsa, test başarısızdır.
+	Kullanıcı ana sayfaya geri dönmüyorsa, test başarısızdır.

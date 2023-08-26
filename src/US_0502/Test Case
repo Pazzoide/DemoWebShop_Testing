@@ -1,0 +1,43 @@
+Test Case ID:
+	US_0502 - TC_0502
+Test Case Name:
+	Negatif | Kupon ve Hediye Kartı Kullanma
+Test Case Description:
+	Kullanıcının web sitesinden kupon ve hediye kartı kullanımını test eder.
+Acceptance Criteria:
+	Kullanıcı anasayfada "Computers" kategorisinden bir ürünü seçebilir.
+	Seçtiği ürünü "Add to Cart" butonuna tıklayarak sepete ekleyebilir.
+	Sepetine giderek seçtiği ürünün görüntülendiğini doğrulayabilir.
+	Sepetimdeki ürün için "Apply Coupon" butonuna tıklayarak bir kupon kodu ekleyebilir.
+	Kupon kodu eklediğinde, kuponun başarılı bir şekilde uygulandığını doğrulayabilir.
+	"Add Gift Card" butonuna tıklayarak bir hediye kartı ekleyebilir.
+	Hediye kartı eklediğinde, kartın başarılı bir şekilde eklendiğini doğrulayabilir.
+	"Checkout" butonuna tıklayarak ödeme işlemine başlayabilir.
+	Ödeme bilgilerini girerek siparişi onaylayabilir.
+	"Your order has been successfully processed!" mesajını görüntüleyerek siparişin başarıyla tamamlandığını doğrulayabilir.
+Pre-Conditions:
+	Test senaryosunun çalıştırılacağı tarayıcı (Chrome, Safari veya Firefox) yüklü ve başlatılmış durumda olmalıdır.
+	Test ortamında internet erişimi sağlanmalıdır.
+	Kupon kodları ve hediye kartları, kullanıcının hesabına uygun bir şekilde uygulanmalıdır.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	"Computers" kategorisinden bir ürünü seçin.
+	Ürün için "Add to Cart" butonuna tıklayın.
+	Sepetim sayfasına gidin.
+	Seçtiğiniz ürünün sepetimde görüntülendiğini doğrulayın.
+	Sepetimdeki ürün için "Apply Coupon" butonuna tıklayın.
+	Geçersiz bir kupon kodu girin.
+	Kupon kodunu girdikten sonra, "Invalid coupon code" mesajını görüntülediğini doğrulayın.
+	"Add Gift Card" butonuna tıklayın.
+	Geçersiz bir hediye kartı numarası girin.
+	Hediye kartı numarasını girdikten sonra, "Invalid gift card number" mesajını görüntülediğini doğrulayın.
+Expected Results:
+	Kullanıcı, geçerli olmayan bir kupon kodu girerse, "Invalid coupon code" mesajını görecektir.
+	Kullanıcı, geçerli olmayan bir hediye kartı numarası girerse, "Invalid gift card number" mesajını görecektir.
+Actual Results:
+	Kullanıcı, geçerli olmayan bir kupon kodu girerse, "Invalid coupon code" mesajını gördüğünü doğrulayın.
+	Kullanıcı, geçerli olmayan bir hediye kartı numarası girerse, "Invalid gift card number" mesajını gördüğünü doğrulayın.
+Pass/Fail Criteria:
+	Kullanıcı, geçerli olmayan bir kupon kodu girerse, "Invalid coupon code" mesajını görmezse, test başarısızdır.
+	Kullanıcı, geçerli olmayan bir hediye kartı numarası girerse, "Invalid gift card number" mesajını görmezse, test başarısızdır.

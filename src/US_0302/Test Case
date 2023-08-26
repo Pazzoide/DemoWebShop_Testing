@@ -1,0 +1,24 @@
+Test Case ID:
+	US_0302 - TC_0302
+Test Case Name:
+	Negatif Oturum Açma
+Test Case Description:
+	Kullanıcının web sitesine giriş yapmaya çalışırken karşılaşabileceği çeşitli negatif senaryoları test eder.
+Acceptance Criteria:
+	Kullanıcı ana sayfada "Login" butonuna tıklayabilir.
+	E-posta ve şifre kısmını boş bırakarak giriş yapmaya çalıştığında, "Login was unsuccessful" mesajını görüntüleyebilir.
+	Geçerli e-posta, boş şifre ile giriş yapmaya çalıştığında, "Login was unsuccessful" mesajını görüntüleyebilir.
+	Boş e-posta, geçerli şifre ile giriş yapmaya çalıştığında, "Login was unsuccessful" mesajını görüntüleyebilir.
+	Geçersiz e-posta veya şifre bilgileriyle giriş yapmaya çalıştığında, "Login was unsuccessful" mesajını görüntüleyebilir.
+Pre-Conditions:
+	Kullanıcının hesabı başarılı bir şekilde oluşturulmuş ve doğrulanmış olmalıdır.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	"Login" butonuna tıklayın.
+Expected Results:
+	Kullanıcının "Login was unsuccessful" mesajını göreceği beklenir.
+Actual Results:
+	Kullanıcının "Login was unsuccessful" mesajını gördüğünü doğrulayın.
+Pass/Fail Criteria:
+	Kullanıcı "Login was unsuccessful" mesajını görmezse, test başarısızdır.

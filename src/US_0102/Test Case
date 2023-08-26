@@ -1,0 +1,41 @@
+Test Case ID:
+	US_0102 - TC_0102
+Test Case Name:
+	Aynı E-posta Adresiyle Kayıt Olma
+Test Case Description:
+	Kullanıcının aynı e-posta adresi ile tekrar kayıt olmaya çalıştığında hata mesajı alıp almadığını test eder.
+Acceptance Criteria:
+	Anasayfada "Register" butonuna tıklayabilmeliyim.
+	Aynı e-posta adresiyle kayıt olmaya çalıştığımda, "The specified email already exists" mesajını görüntüleyebilmeliyim.
+Pre-Conditions:
+	Test için kullanılacak tarayıcı (Chrome, Safari veya Firefox) yüklü ve başlatılmış durumda olmalıdır.
+	Test ortamında internet erişimi sağlanmalıdır.
+	Geçerli şifre en az 8 karakterli olmalı; büyük-küçük harf ve rakam içermelidir.
+Steps:
+	Test ortamında web tarayıcısını başlatın.
+	Mağazanın ana sayfasını açın.
+	"Register" butonuna tıklayın.
+	Aşağıdaki bilgileri girin:
+	E-posta adresi: [geçerli e-posta adresi]
+	Ad: [geçerli ad]
+	Soyadı: [geçerli soyadı]
+	Şifre: [en az 8 karakterli, büyük-küçük harf ve rakam içeren şifre]
+	Şifre (tekrar): [en az 8 karakterli, büyük-küçük harf ve rakam içeren şifre]
+	"Register" butonuna tıklayın.
+	Kayıt işlemi tamamlandığında, "Hesabınız başarıyla oluşturuldu!" mesajını gördüğünüzü doğrulayın.
+	Ana sayfaya geri dönün.
+	"Register" butonuna tekrar tıklayın.
+	Aynı e-posta adresini girin ve "Register" butonuna tıklayın.
+	"The specified email already exists" mesajını gördüğünüzü doğrulayın.
+Expected Results:
+	"Hesabınız başarıyla oluşturuldu!" mesajı görüntülenir.
+	Ana sayfaya geri dönersiniz.
+	"The specified email already exists" mesajı görüntülenir.
+Actual Results:
+	"Hesabınız başarıyla oluşturuldu!" mesajının görüntülendiği doğrulanır.
+	Ana sayfaya geri dönüldüğü doğrulanır.
+	"The specified email already exists" mesajının görüntülendiği doğrulanır.
+Pass/Fail Criteria:
+	"Hesabınız başarıyla oluşturuldu!" mesajı görüntülenmezse, test başarısızdır.
+	Ana sayfaya geri dönemezseniz, test başarısızdır.
+	"The specified email already exists" mesajı görüntülenmezse, test başarılıdır.
