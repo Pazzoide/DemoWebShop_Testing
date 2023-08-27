@@ -13,6 +13,8 @@ Steps:
 	Test ortamında web tarayıcısını başlatın.
 	Mağazanın ana sayfasını açın.
 	Giriş sayfasını bulun ve kullanıcı bilgilerinizi girin.
+        Email: 123testuser456@example.com
+        Password: Password1234
 	"Giriş" butonuna tıklayın.
 	Giriş yaptığınızdan emin olun.
 	Hesabınızı kapatmak için "Hesabımı Kapat" bağlantısına tıklayın.

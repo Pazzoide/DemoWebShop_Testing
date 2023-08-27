@@ -16,11 +16,13 @@ Steps:
 	Mağazanın ana sayfasını açın.
 	"Register" butonuna tıklayın.
 	Aşağıdaki bilgileri girin:
-	E-posta adresi: [geçerli e-posta adresi]
-	Ad: [geçerli ad]
-	Soyadı: [geçerli soyadı]
-	Şifre: [en az 8 karakterli, büyük-küçük harf ve rakam içeren şifre]
-	Şifre (tekrar): [en az 8 karakterli, büyük-küçük harf ve rakam içeren şifre]
+        URL: https://demowebshop.tricentis.com/
+        Gender: Male
+        First Name: Testercan
+        Last Name: Testeroglu
+        Email: 123testuser456@example.com
+        Password: Password1234
+        Confirm password: Password1234
 	"Register" butonuna tıklayın.
 	Kayıt işlemi tamamlandığında, "Hesabınız başarıyla oluşturuldu!" mesajını gördüğünüzü doğrulayın.
 	Ana sayfaya geri dönün.

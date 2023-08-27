@@ -15,8 +15,8 @@ Steps:
 	Mağazanın ana sayfasını açın.
 	"Login" butonuna tıklayın.
 	Aşağıdaki bilgileri girin:
-	E-posta adresi: [geçerli e-posta adresi]
-	Şifre: [geçerli şifre]
+        Email: 123testuser456@example.com
+        Password: Password1234
 	"Login" butonuna tıklayın.
 Expected Results:
 	Kullanıcının ana sayfaya giriş yapacağı ve giriş yaptığını doğrulayacak bir mesaj göreceği beklenir.
