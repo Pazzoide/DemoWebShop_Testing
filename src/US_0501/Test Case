@@ -7,7 +7,7 @@ Test Case Description:
 Acceptance Criteria:
 	Kullanıcı anasayfada "Community Pool" adlı anketi görebilir.
 	Anketi yanıtlamak için "excellent," "good," "poor," veya "very bad" seçeneklerinden birini seçebilir.
-	Yanıtı göndermek için bir "Submit" butonu vardır.
+	Yanıtı göndermek için bir "Vote" butonu vardır.
 	Yanıtını gönderdikten sonra, anket sonuçlarını görüntüleyebilir.
 	Sonuçlar, anketin hangi seçeneğe ne kadar oy verildiğini gösterir.
 Pre-Conditions:
@@ -19,7 +19,7 @@ Steps:
 	Mağazanın ana sayfasını açın.
 	"Community Pool" adlı anketi bulun.
 	Anketi yanıtlamak için bir seçenek seçin.
-	"Submit" butonuna tıklayın.
+	"Vote" butonuna tıklayın.
 Expected Results:
 	Kullanıcı anasayfada "Community Pool" adlı anketi görecektir.
 	Kullanıcı anketi yanıtlamak için "excellent," "good," "poor," veya "very bad" seçeneklerinden birini seçebilecektir.
