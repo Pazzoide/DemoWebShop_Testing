@@ -31,6 +31,7 @@ public class TC_0501_AnketiYanitlama extends BaseDriver {
          WebElement goodRadio=driver.findElement(By.cssSelector("input[id='pollanswers-2'] "));
          goodRadio.click();
         // Anketi radio good butonu ile yanıtladım.
+
         Fonksiyon.bekle(2);
 
         WebElement voteTikla=driver.findElement(By.cssSelector("input[id='vote-poll-1'] "));
