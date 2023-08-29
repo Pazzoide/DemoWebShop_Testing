@@ -41,4 +41,4 @@ Pass/Fail Criteria:
 	"Hesabınız başarıyla oluşturuldu!" mesajı görüntülenmezse, test başarısızdır.
 	Ana sayfaya geri dönemezseniz, test başarısızdır.
 	"The specified email already exists" mesajı görüntülenmezse, test başarılıdır.
-Tester=[ZAFER CANSIZ]
+Tester:[ZAFER CANSIZ]

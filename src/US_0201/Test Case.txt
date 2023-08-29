@@ -26,3 +26,4 @@ Actual Results:
 Pass/Fail Criteria:
 	Kullanıcı oturumu kapatılmazsa, test başarısızdır.
 	Kullanıcı giriş yapma sayfasına yönlendirilmezse, test başarısızdır.
+Tester:[FATİHHAN KARAHANLI]

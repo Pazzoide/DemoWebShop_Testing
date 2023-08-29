@@ -41,3 +41,4 @@ Actual Results:
 Pass/Fail Criteria:
 	Kullanıcı, geçerli olmayan bir kupon kodu girerse, "Invalid coupon code" mesajını görmezse, test başarısızdır.
 	Kullanıcı, geçerli olmayan bir hediye kartı numarası girerse, "Invalid gift card number" mesajını görmezse, test başarısızdır.
+Tester:[ŞEYMA ASKERZADE]

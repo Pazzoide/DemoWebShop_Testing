@@ -57,3 +57,4 @@ Pass/Fail Criteria:
 	Kullanıcının seçtiği ürün sepetim sayfasında görüntülenmezse, test başarısızdır.
 	Kullanıcının sepetinde doğru kargo bilgileri görüntülenmezse, test başarısızdır.
 	Kullanıcının siparişi başarıyla işlenmezse, test başarısızdır.
+Tester:[BURHAN ŞENGÜL]

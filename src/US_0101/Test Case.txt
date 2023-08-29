@@ -34,3 +34,4 @@ Actual Results:
 Pass/Fail Criteria:
 	"Hesabınız başarıyla oluşturuldu!" mesajı görülmüyorsa, test başarısızdır.
 	Kullanıcı ana sayfaya geri dönmüyorsa, test başarısızdır.
+Tester:[RAMAZAN İNCE]

@@ -38,3 +38,4 @@ Pass/Fail Criteria:
 	Kullanıcı yanıtını göndermek için bir "Submit" butonu yoksa, test başarısızdır.
 	Kullanıcı yanıtını gönderdikten sonra, anket sonuçlarını görüntüleyemezse, test başarısızdır.
 	Sonuçlar, anketin hangi seçeneğe ne kadar oy verdiğini göstermiyorsa, test başarısızdır.
+Tester:[ENGİN ELALDI]

@@ -49,4 +49,4 @@ Ek Testler:
 	Fatura, geçerli bir "XML" formatında mı
 	Fatura, siparişin tüm ayrıntılarını içeriyor mu
 	Fatura, doğru tarih ve saatle mi düzenlenmiş
-Tester=[BURCU ELALDI]
+Tester:[BURCU ELALDI]

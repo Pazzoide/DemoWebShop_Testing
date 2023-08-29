@@ -25,3 +25,4 @@ Actual Results:
 Pass/Fail Criteria:
 	Kullanıcı ana sayfaya giriş yapamazsa, test başarısızdır.
 	Kullanıcı giriş yaptığını doğrulayacak bir mesaj görmezse, test başarısızdır.
+Tester:[FATİHHAN KARAHANLI]
