@@ -1,13 +1,11 @@
 package US_0102;
 
 import Utility.BaseDriver;
-import Utility.Fonksiyon;
 import org.junit.Assert;
 import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.WebDriverWait;
+
 
 public class TC_0102 extends BaseDriver {
     @Test

@@ -5,8 +5,6 @@ import org.junit.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-//E-posta ve şifre kısmını boş bırakarak giriş yapmaya çalıştığımda,
-// "Login was unsuccessful" mesajını görüntüleyebilmeliyim.
 
 public class TC_0302 extends BaseDriver {
     @Test

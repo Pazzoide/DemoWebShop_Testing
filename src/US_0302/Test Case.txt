@@ -22,3 +22,4 @@ Actual Results:
 	Kullanıcının "Login was unsuccessful" mesajını gördüğünü doğrulayın.
 Pass/Fail Criteria:
 	Kullanıcı "Login was unsuccessful" mesajını görmezse, test başarısızdır.
+Tester:[ŞEYMA ASKERZADE]
