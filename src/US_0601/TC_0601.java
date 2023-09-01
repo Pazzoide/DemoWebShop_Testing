@@ -29,5 +29,13 @@ public class TC_0601 extends BaseDriver {
 
         WebElement ordersTikla=driver.findElement(By.xpath("//a[text()='Orders']"));
         ordersTikla.click();
+
+        WebElement detailsTikla=driver.findElement(By.cssSelector("input[class='button-2 order-details-button']"));
+        detailsTikla.click();
+
+        WebElement pdfinvoice=driver.findElement(By.xpath("//a[text()='PDF Invoice']"));
+        pdfinvoice.click();
+
+        BekleVeKapat();
     }
 }

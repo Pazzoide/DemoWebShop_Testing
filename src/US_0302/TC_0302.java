@@ -9,6 +9,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class TC_0302 extends BaseDriver {
     @Test
     public void test_negativeUserLogin(){
+
         driver.get("https://demowebshop.tricentis.com/");
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.linkText("Log in")));

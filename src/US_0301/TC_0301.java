@@ -11,6 +11,7 @@ public class TC_0301 extends BaseDriver {
 
     @Test
     public void test_userLoginFunctionality(){
+
         driver.get("https://demowebshop.tricentis.com/");
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(linkTextLctr));

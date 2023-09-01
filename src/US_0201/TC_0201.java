@@ -12,6 +12,7 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 public class TC_0201 extends BaseDriver {
     @Test
     public void test_logoutFunctionality() {
+
         driver.get("https://demowebshop.tricentis.com/");
 
         wait.until(ExpectedConditions.visibilityOfElementLocated(linkTextLctr));

@@ -106,6 +106,7 @@ public class TC_0502 extends BaseDriver {
         lastconfirm.click();
         WebElement assertOrder = driver.findElement(By.xpath("//strong[text()='Your order has been successfully processed!']"));
         String msj3 = assertOrder.getText();
+
         Assert.assertTrue("Sipariş doğrulanamadı!",assertOrder.getText().contains(msj3));
 
       BekleVeKapat();

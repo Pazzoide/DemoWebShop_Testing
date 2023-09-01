@@ -12,7 +12,6 @@ public class TC_0102 extends BaseDriver {
     public void test_duplicateEmailRegistration(){
     driver.get("https://demowebshop.tricentis.com/");
 
-
         WebElement registerButton1 = driver.findElement(By.xpath("//a[@class='ico-register']"));
         registerButton1.click();
 
